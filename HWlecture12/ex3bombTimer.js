@@ -1,6 +1,6 @@
 function bombTimer(str, time) {
-    var i = time;
-    var timerId = setInterval(function() {
+    let i = time;
+    let timerId = setInterval(function() {
         if (i == 0) clearInterval(timerId);
         i--;
         if (time >= 1) {
