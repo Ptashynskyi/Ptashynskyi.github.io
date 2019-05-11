@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, .95) 0%, rgba(0, 0, 0, .95) 100%), url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/28/11/avengers-infinity-war.jpg);
+    height: 100vh;
+}
+
+form {
+    margin: 35vh;
+}
+
+.whiteText {
+    color: white;
+}
+
+.btn-primary {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    top: 60vh;
+    margin-left: 0vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #e03d24;
+    border-color: #e03d24;
+    box-shadow: 0 -3px rgb(138, 24, 6) inset;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background: #bb1900;
+    border-color: orange;
+}
+
+.btn-primary:active {
+    background: #bb1900;
+    box-shadow: 0 3px #67291f inset;
+}
+
+.arrov {
+    position: absolute;
+    size: 30px;
+    top: 25vh;
+    margin-left: 14vw;
+}

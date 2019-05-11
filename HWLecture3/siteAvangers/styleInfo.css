@@ -1,0 +1,144 @@
+body {
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, .95) 0%, rgba(0, 0, 0, .95) 100%), url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/28/11/avengers-infinity-war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 8vh;
+    height: 9vh;
+    margin-left: -44vw;
+}
+
+.ironman {
+    position: absolute;
+    top: 15vh;
+    height: 82vh;
+    margin-left: -33vw;
+}
+
+.tanos {
+    position: absolute;
+    top: 15vh;
+    height: 70vh;
+    margin-left: -29vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blocks {
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(57, 57, 57));
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: 80vh;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block--center-left {
+    background: rgba(255, 255, 255);
+    width: 50vw;
+    height: 70vh;
+}
+
+.block--center-right {
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, .95) 0%, rgba(0, 0, 0, .95) 100%), url(http://beautydaybook.com/files/upload/origin/n539btli-haa19v1gg-h4i4bp60y5.jpg);
+    background-size: cover;
+    width: 30vw;
+    height: 70vh;
+}
+
+.block--center-right--text {
+    display: flex;
+    flex: auto;
+    font-size: 8vw;
+    position: absolute;
+    top: 27vh;
+    margin-left: 10vw;
+    font-family: 'Faster One', cursive;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+}
+
+.block--center-left--text {
+    display: flex;
+    flex: auto;
+    font-size: 8vw;
+    position: absolute;
+    top: 27vh;
+    margin-left: 4vw;
+    font-family: 'Faster One', cursive;
+    color: #e03d24;
+    justify-content: flex-end;
+}
+
+a.button1 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    top: 65vh;
+    margin-left: 70vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #e03d24;
+    box-shadow: 0 -3px rgb(138, 24, 6) inset;
+    transition: 0.2s;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.fa-align-justify {
+    position: absolute;
+    top: 12vh;
+    margin-left: 7vw;
+}
+
+.arrov {
+    position: absolute;
+    size: 30px;
+    top: 19vh;
+    margin-left: 80vw;
+}
+
+.ltext {
+    position: absolute;
+    text-align: justify;
+    font-family: 'Marvel', sans-serif;
+    font-size: 2vh;
+    color: inherit;
+    top: 33vh;
+    margin-left: 11vw;
+    margin-right: 40vw;
+}
+
+#line {
+    position: absolute;
+    top: 26vh;
+    margin-left: 11vw;
+}
+
+h1 {
+    font-family: 'Marvel', sans-serif;
+    position: absolute;
+    top: 17vh;
+    margin-left: 11vw;
+    margin-right: 40vw;
+}

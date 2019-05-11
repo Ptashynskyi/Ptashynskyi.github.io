@@ -1,0 +1,287 @@
+body {
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, .95) 0%, rgba(0, 0, 0, .95) 100%), url(https://www.syfy.com/sites/syfy/files/styles/1200x680/public/syfywire_blog_post/2018/10/avengers-tony-stark-iron-man-movie-hd-wallpaper-2880x1800-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 8vh;
+    height: 9vh;
+    margin-left: -44vw;
+}
+
+.ironman {
+    position: absolute;
+    top: 15vh;
+    height: 70vh;
+    margin-left: -63vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blocks {
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0), rgba(57, 57, 57));
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: 80vh;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block--center-left {
+    background: rgba(255, 255, 255);
+    width: 30vw;
+    height: 70vh;
+}
+
+.block--center-right {
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, .95) 0%, rgba(0, 0, 0, .95) 100%), url(http://cdn.chaihezi.com/wp-content/uploads/2017/11/Infinity-5.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 70vh;
+}
+
+.block--center-right--text {
+    display: flex;
+    flex: auto;
+    font-size: 8vw;
+    position: absolute;
+    top: 27vh;
+    margin-left: 10vw;
+    font-family: 'Faster One', cursive;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+}
+
+.block--center-left--text {
+    display: flex;
+    flex: auto;
+    font-size: 8vw;
+    position: absolute;
+    top: 27vh;
+    margin-left: 4vw;
+    font-family: 'Faster One', cursive;
+    color: #e03d24;
+    justify-content: flex-end;
+}
+
+a.button1 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    top: 65vh;
+    margin-left: 70vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #e03d24;
+    box-shadow: 0 -3px rgb(138, 24, 6) inset;
+    transition: 0.2s;
+}
+
+a.button1:hover {
+    background: #bb1900;
+}
+
+a.button1:active {
+    background: #bb1900;
+    box-shadow: 0 3px #67291f inset;
+}
+
+a.button2 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    top: 70vh;
+    margin-left: 69vw;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+a.button3 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    -webkit-transform: rotate(-90deg);
+    top: 27vh;
+    font-style: normal;
+    margin-left: 5.5vw;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+a.button3:hover {
+    background: #bb1900;
+}
+
+a.button3:active {
+    background: #bb1900;
+    box-shadow: 0 3px #67291f inset;
+}
+
+a.button4 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    -webkit-transform: rotate(-90deg);
+    top: 48vh;
+    margin-left: 5vw;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+a.button4:hover {
+    background: #bb1900;
+}
+
+a.button4:active {
+    color: #bb1900;
+    box-shadow: 0 3px #67291f inset;
+}
+
+a.button5 {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    -webkit-transform: rotate(-90deg);
+    top: 70vh;
+    margin-left: 4vw;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+a.button5:hover {
+    background: #bb1900;
+}
+
+a.button5:active {
+    color: #bb1900;
+    box-shadow: 0 3px #67291f inset;
+}
+
+.dot1 {
+    position: absolute;
+    color: white;
+    top: 38vh;
+    margin-left: 7.5vw;
+}
+
+.dot2 {
+    position: absolute;
+    color: white;
+    top: 59vh;
+    margin-left: 7.5vw;
+}
+
+
+/*li:before {
+  font-family:FontAwesome;
+  position: absolute;
+  left: 0;
+  color:#318ca0;
+  font-size:32px;
+}
+
+li{
+  color:#fff;
+  list-style:none;
+  position: absolute;
+  padding-left:50px;
+  line-height: 2;
+  font-size:32px;
+}
+li.point:before {
+   content:"\f1a1";
+}
+li:hover:before {
+  color:#fff;
+}*/
+
+.custom-list {
+    list-style: circle;
+    position: absolute;
+    top: 45vh;
+    margin-left: 90.5vw;
+}
+
+#activeButton {
+    color: white;
+}
+
+#disabledButton {
+    color: grey;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.fa-align-justify {
+    position: absolute;
+    top: 12vh;
+    margin-left: 7vw;
+}
+
+.arrov {
+    position: absolute;
+    size: 30px;
+    top: 19vh;
+    margin-left: 80vw;
+}
+
+.leftNum {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    font-size: 2vh;
+    color: #bebdc2;
+    top: 67vh;
+    margin-left: 17vw;
+}
+
+#fontNum {
+    font-size: 4vh;
+    color: #44434b;
+}
+
+.ltext {
+    position: absolute;
+    font-family: 'Marvel', sans-serif;
+    text-decoration: overline;
+    font-size: 1vh;
+    color: #bebdc2;
+    top: 73vh;
+    margin-left: 17vw;
+}
+
+#line {
+    position: absolute;
+    top: 26vh;
+    margin-left: 15vw;
+}
